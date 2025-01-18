@@ -1,0 +1,350 @@
+article {
+  @apply font-sans;
+
+  & em {
+    @apply font-sans-italic;
+  }
+
+  & strong {
+    @apply font-sans-bold;
+  }
+
+  & strong em,
+  & em strong {
+    @apply font-sans-bolditalic;
+  }
+
+  & a {
+    @apply underline underline-offset-[3px] transition-all duration-150;
+    text-decoration-thickness: 2px !important;
+    text-decoration-color: #406d7388 !important;
+    color: #406d73 !important;
+
+    &:hover {
+      text-decoration-color: #406d73 !important;
+    }
+  }
+
+  &:hover::before {
+    opacity: 1;
+  }
+
+  & .hint.tip {
+    @apply rounded-sm border border-teal-900/40 bg-teal-800/10 p-2 px-3 text-teal-900;
+
+    &::before {
+      content: url(https://api.iconify.design/solar:info-square-line-duotone.svg);
+      scale: 1.2;
+      transform: translateY(2px);
+      display: inline-flex;
+      filter: brightness(0) saturate(100%) invert(21%) sepia(66%) saturate(456%)
+        hue-rotate(127deg) brightness(100%) contrast(95%);
+      align-items: center;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+  }
+
+  & .hint.error {
+    @apply rounded-sm border border-amber-900/40 bg-amber-300/10 p-2 px-3 text-amber-800;
+
+    &::before {
+      content: url(https://api.iconify.design/ph:warning-duotone.svg);
+      scale: 1.2;
+      transform: translateY(1px);
+      filter: brightness(0) saturate(100%) invert(21%) sepia(89%)
+        saturate(1722%) hue-rotate(11deg) brightness(94%) contrast(90%);
+      display: inline-flex;
+      align-items: center;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+  }
+
+  & .hint.warn {
+    @apply rounded-sm border border-lime-900/40 bg-lime-300/10 p-2 px-3 text-lime-800;
+
+    &::before {
+      content: url(https://api.iconify.design/solar:pen-2-bold-duotone.svg);
+      scale: 1.2;
+      filter: brightness(0) saturate(100%) invert(29%) sepia(100%)
+        saturate(364%) hue-rotate(44deg) brightness(92%) contrast(93%);
+      display: inline-flex;
+      align-items: center;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+  }
+
+  & blockquote {
+    font-style: normal !important;
+  }
+}
+
+.prose {
+  --tw-prose-body: #374151;
+  --tw-prose-headings: #111827;
+  --tw-prose-lead: #4b5563;
+  --tw-prose-links: #406d73;
+  --tw-prose-bold: #111827;
+  --tw-prose-counters: #6b7280;
+  --tw-prose-bullets: #d1d5db;
+  --tw-prose-hr: #e2e0dc;
+  --tw-prose-quotes: #111827;
+  --tw-prose-quote-borders: #e2e0dc;
+  --tw-prose-captions: #6b7280;
+  --tw-prose-kbd: #111827;
+  --tw-prose-kbd-shadows: 17 24 39;
+  --tw-prose-code: #111827;
+  --tw-prose-pre-code: #e5e7eb;
+  --tw-prose-pre-bg: #1f2937;
+  --tw-prose-th-borders: #d1d5db;
+  --tw-prose-td-borders: #e5e7eb;
+}
+
+:where(h1, h2, h3, h4, h5, h6) {
+  .icon-link {
+    position: relative;
+    &::before {
+      @apply font-mono;
+      font-style: normal;
+      position: absolute;
+      font-size: 1em;
+      top: 50%;
+      opacity: 0.3;
+      transform: translateY(-50%);
+    }
+  }
+}
+:where(h1) .icon-link::before {
+  content: "#";
+  left: -1.2ch;
+
+}
+:where(h2) .icon-link::before {
+  content: "##";
+  left: -2.2ch;
+}
+:where(h3) .icon-link::before {
+  content: "###";
+  left: -3.2ch;
+}
+:where(h4) .icon-link::before {
+  content: "####";
+  left: -4.2ch;
+}
+:where(h5) .icon-link::before {
+  content: "#####";
+  left: -5.2ch;
+}
+:where(h6) .icon-link::before {
+  content: "######";
+  left: -6.2ch;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  color: #90a4ae;
+  background: #fafafa;
+  line-height: 1.5em;
+  @apply font-mono;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+code[class*="language-"]::-moz-selection,
+pre[class*="language-"]::-moz-selection,
+code[class*="language-"] ::-moz-selection,
+pre[class*="language-"] ::-moz-selection {
+  background: #cceae7;
+  color: #263238;
+}
+
+code[class*="language-"]::selection,
+pre[class*="language-"]::selection,
+code[class*="language-"] ::selection,
+pre[class*="language-"] ::selection {
+  background: #cceae7;
+  color: #263238;
+}
+
+:not(pre) > code[class*="language-"] {
+  white-space: normal;
+  border-radius: 0.2em;
+  padding: 0.1em;
+}
+
+pre[class*="language-"] {
+  overflow: auto;
+  position: relative;
+  margin: 0.5em 0;
+  padding: 1.25em 1em;
+}
+
+.language-css > code,
+.language-sass > code,
+.language-scss > code {
+  color: #f76d47;
+}
+
+[class*="language-"] .namespace {
+  opacity: 0.7;
+}
+
+.token.atrule {
+  color: #7c4dff;
+}
+
+.token.attr-name {
+  color: #39adb5;
+}
+
+.token.attr-value {
+  color: #f6a434;
+}
+
+.token.attribute {
+  color: #f6a434;
+}
+
+.token.boolean {
+  color: #7c4dff;
+}
+
+.token.builtin {
+  color: #39adb5;
+}
+
+.token.cdata {
+  color: #39adb5;
+}
+
+.token.char {
+  color: #39adb5;
+}
+
+.token.class {
+  color: #39adb5;
+}
+
+.token.class-name {
+  color: #6182b8;
+}
+
+.token.comment {
+  color: #aabfc9;
+}
+
+.token.constant {
+  color: #7c4dff;
+}
+
+.token.deleted {
+  color: #e53935;
+}
+
+.token.doctype {
+  color: #aabfc9;
+}
+
+.token.entity {
+  color: #e53935;
+}
+
+.token.function {
+  color: #7c4dff;
+}
+
+.token.hexcode {
+  color: #f76d47;
+}
+
+.token.id {
+  color: #7c4dff;
+  font-weight: bold;
+}
+
+.token.important {
+  color: #7c4dff;
+  font-weight: bold;
+}
+
+.token.inserted {
+  color: #39adb5;
+}
+
+.token.keyword {
+  color: #7c4dff;
+}
+
+.token.number {
+  color: #f76d47;
+}
+
+.token.operator {
+  color: #39adb5;
+}
+
+.token.prolog {
+  color: #aabfc9;
+}
+
+.token.property {
+  color: #39adb5;
+}
+
+.token.pseudo-class {
+  color: #f6a434;
+}
+
+.token.pseudo-element {
+  color: #f6a434;
+}
+
+.token.punctuation {
+  color: #39adb5;
+}
+
+.token.regex {
+  color: #6182b8;
+}
+
+.token.selector {
+  color: #e53935;
+}
+
+.token.string {
+  color: #f6a434;
+}
+
+.token.symbol {
+  color: #7c4dff;
+}
+
+.token.tag {
+  color: #e53935;
+}
+
+.token.unit {
+  color: #f76d47;
+}
+
+.token.url {
+  color: #e53935;
+}
+
+.token.variable {
+  color: #e53935;
+}
