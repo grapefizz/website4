@@ -9,11 +9,7 @@
 		"skipLibCheck": true,
 		"sourceMap": true,
 		"strict": true,
-
-		"extends": "./.svelte-kit/tsconfig.json",
-		"compilerOptions": {
-			"types": ["svelte"]
-		}
+		"moduleResolution": "bundler"
 	}
 	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias
 	//
