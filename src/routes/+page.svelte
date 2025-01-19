@@ -1,21 +1,23 @@
 <script lang="ts">
-import Header from "../components/Header.svelte";
-import Banner from "../components/Banner.svelte";
-import InfoCard from "../components/InfoCard.svelte";
-import Footer from "../components/Footer.svelte";
-import Projects from "../components/Projects.svelte";
-import Graphic from "../components/Graphic.svelte";
-import {
-	aboutInfo,
-	skillsInfo,
-	stuffInfo,
-	personInfo,
-} from "../data/InfoCards";
+  import Header from "../components/Header.svelte";
+  import Banner from "../components/Banner.svelte";
+  import InfoCard from "../components/InfoCard.svelte";
+  import Footer from "../components/Footer.svelte";
+  import Projects from "../components/Projects.svelte";
+  import Graphic from "../components/Graphic.svelte";
+  import {
+    aboutInfo,
+    skillsInfo,
+    stuffInfo,
+    personInfo,
+    riceInfo,
+    gameInfo,
+  } from "../data/InfoCards";
 </script>
 
 <main class="relative flex flex-col md:min-h-screen md:overflow-hidden">
   <div class="z-50 flex max-h-screen w-full flex-col bg-black/5">
-      <Banner />
+    <Banner />
     <Header />
   </div>
 
@@ -28,6 +30,7 @@ import {
     >
       <InfoCard data={aboutInfo} />
       <InfoCard data={skillsInfo} />
+      <InfoCard data={riceInfo} />
     </div>
     <div
       class="unblur-in flex flex-col md:pt-20"
@@ -35,6 +38,7 @@ import {
     >
       <InfoCard data={stuffInfo} />
       <InfoCard data={personInfo} />
+      <InfoCard data={gameInfo} />
     </div>
     <div class="absolute right-2 top-2">
       <Projects />
@@ -48,15 +52,23 @@ import {
   </div>
 </main>
 
-
 <style>
-  main::after{
+  main::after {
     content: "";
     position: absolute;
     inset: 0;
     z-index: 999;
     pointer-events: none;
-    background: linear-gradient(-25deg, #00000044, transparent, #00000022, #ffffff44, #00000077, #ffffff99, #00000099);
+    background: linear-gradient(
+      -25deg,
+      #00000044,
+      transparent,
+      #00000022,
+      #ffffff44,
+      #00000077,
+      #ffffff99,
+      #00000099
+    );
     filter: blur(10px);
     opacity: 0.5;
   }

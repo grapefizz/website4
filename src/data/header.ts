@@ -16,8 +16,8 @@ export const headerLinks: HeaderLink[] = [
 		action: "copy",
 	},
 	{
-		value: "https://twitter.com/Not_AriRay",
-		text: "X: @Not_AriRay",
+		value: "https://ko-fi.com/notariray",
+		text: "Ko-Fi: @notariray",
 		action: "open",
 	},
 	{
