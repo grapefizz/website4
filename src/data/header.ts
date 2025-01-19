@@ -21,8 +21,8 @@ export const headerLinks: HeaderLink[] = [
 		action: "open",
 	},
 	{
-		value: "ariray@proton.me",
+		value: "mailto:ariray@proton.me",
 		text: "Email: ariray@proton.me",
-		action: "copy",
+		action: "open",
 	},
 ];
