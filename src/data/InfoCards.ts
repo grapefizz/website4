@@ -52,7 +52,7 @@ export const riceInfo: InfoCardProps = {
 		{ key: "Terminal", value: "kitty" },
 		{ key: "Color Scheme", value: "Rose Pine Moon" },
 		{ key: "Window Manager", value: "yabai" },
-		{ key: "Status Bar", value: "Sketchy Bar" },
+		{ key: "Status Bar", value: "SketchyBar" },
 		{ key: "Fetch App", value: "neofetch" },
 		{ key: "Github Repo", value: "NotAriRay/dotfiles" },
 	],

@@ -119,7 +119,6 @@ article {
 :where(h1) .icon-link::before {
   content: "#";
   left: -1.2ch;
-
 }
 :where(h2) .icon-link::before {
   content: "##";

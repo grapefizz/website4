@@ -98,7 +98,7 @@
       </div>
     {/each}
   </div>
-  <p class="py-4 text-center">more comming soon</p>
+  <p class="py-4 text-center">And more to come...</p>
 </div>
 <!-- A hacky fix to get tailwind to work for now, no idea how i would fix this tbh -->
 <span
