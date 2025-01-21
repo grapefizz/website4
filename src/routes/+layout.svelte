@@ -22,8 +22,8 @@
   <meta property="og:title" content="ariray" />
   <meta property="og:description" content="AriRay's website" />
   <meta property="og:url" content="https://ariray.vercel.app" />
-  <meta property="og:image" content="https://tnixc.space/og-image.jpeg" />
-  <meta name="twitter:image" content="https://tnixc.space/og-image.jpeg" />
+  <!-- <meta property="og:image" content="https://tnixc.space/og-image.jpeg" />
+  <meta name="twitter:image" content="https://tnixc.space/og-image.jpeg" /> -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="ariray" />
   <meta property="twitter:site" content="@Not_AriRay" />

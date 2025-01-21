@@ -6,7 +6,7 @@
       "https://api.github.com/repos/tnixc/website-v5/git/refs/heads/main"
     );
     const data = await res.json();
-    let thing = "カッコいいからこれを書いている";
+    let thing = "6451773477395767586351";
     for (let char of thing) {
       latest += char;
       await new Promise((r) => setTimeout(r, 20));
