@@ -51,7 +51,7 @@
     >
     <h1 class="">Projects</h1>
     <a
-      href="https://github.com/NotAriRay"
+      href="https://github.com/shallowco"
       class="flex gap-2 border border-white/20 p-2"
     >
       <img

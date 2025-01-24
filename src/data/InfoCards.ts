@@ -54,7 +54,7 @@ export const riceInfo: InfoCardProps = {
 		{ key: "Window Manager", value: "yabai" },
 		{ key: "Status Bar", value: "SketchyBar" },
 		{ key: "Fetch App", value: "neofetch" },
-		{ key: "Github Repo", value: "NotAriRay/dotfiles" },
+		{ key: "Github Repo", value: "shallowco/dotfiles" },
 	],
 };
 export const gameInfo: InfoCardProps = {

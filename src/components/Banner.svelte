@@ -3,7 +3,7 @@
 
 <div class="relative m-0 overflow-hidden p-[9px] px-[10px] pb-0" id="reveal">
   <div class="w-fit border border-black flex items-center flex-wrap gap-20">
-    <h1 class="font-display patches">AriRay</h1>
+    <h1 class="font-display patches">shallowco</h1>
     <svg
       width="165"
       height="55"
@@ -33,6 +33,7 @@
     animation-fill-mode: forwards;
     background: white;
   }
+
   @keyframes heightUp {
     from {
       height: 100%;
@@ -45,6 +46,20 @@
   .patches {
     line-height: 1.25;
     margin-left: 15px;
-    font-size: 6rem;
+    font-size: 8rem;
+  }
+
+  /* Add responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .patches {
+      font-size: 4rem; /* Smaller font size on mobile */
+    }
+    .w-fit {
+      gap: 10px; /* Adjust gap for better spacing */
+    }
+    svg {
+      transform: scale(1); /* Reduce scale on mobile */
+      translate: none; /* Remove translation */
+    }
   }
 </style>
