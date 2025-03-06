@@ -9,7 +9,7 @@ type InfoCardProps = {
 export const aboutInfo: InfoCardProps = {
 	Title: "About",
 	Info: [
-		{ key: "Age", value: "15" },
+		{ key: "Age", value: "16" },
 		{ key: "Pronouns", value: "He/Him" },
 		{ key: "Location", value: "Kosovo" },
 		{ key: "Time Zone", value: "GMT+1" },
