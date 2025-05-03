@@ -50,11 +50,11 @@ export const riceInfo: InfoCardProps = {
 	Title: "macOS Rice",
 	Info: [
 		{ key: "Terminal", value: "kitty" },
-		{ key: "Color Scheme", value: "Rose Pine Moon" },
+		{ key: "Color Scheme", value: "Catppuccin Mocha" },
 		{ key: "Window Manager", value: "yabai" },
 		{ key: "Status Bar", value: "SketchyBar" },
 		{ key: "Fetch App", value: "neofetch" },
-		{ key: "Github Repo", value: "shallowco/dotfiles" },
+		{ key: "Github Repo", value: "grapefizz/dotfiles" },
 	],
 };
 export const gameInfo: InfoCardProps = {

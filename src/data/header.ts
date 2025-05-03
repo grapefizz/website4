@@ -6,23 +6,23 @@ type HeaderLink = {
 };
 export const headerLinks: HeaderLink[] = [
 	{
-		value: "https://github.com/shallowco",
-		text: "GitHub: shallowco",
+		value: "https://github.com/grapefizz",
+		text: "GitHub: grapefizz",
 		action: "open",
 	},
 	{
-		value: "@shallowco",
-		text: "Discord: @shallowco",
+		value: "@grapefizz",
+		text: "Discord: @grapefizz",
 		action: "copy",
 	},
 	{
-		value: "https://ko-fi.com/shallowco",
-		text: "Ko-Fi: @shallowco",
+		value: "https://ko-fi.com/grapefizz",
+		text: "Ko-Fi: @grapefizz",
 		action: "open",
 	},
 	{
-		value: "mailto:shallowco@proton.me",
-		text: "Email: shallowco@proton.me",
+		value: "mailto:arikarakushi@proton.me",
+		text: "Email: arikarakushi@proton.me",
 		action: "open",
 	},
 ];

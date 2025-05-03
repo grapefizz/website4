@@ -17,17 +17,17 @@
 </script>
 
 <svelte:head>
-  <title>shallowco</title>
-  <meta name="description" content="shallowco's website" />
-  <meta property="og:title" content="shallowco" />
-  <meta property="og:description" content="shallowco's website" />
-  <meta property="og:url" content="https://shallowco.vercel.app" />
+  <title>grapefizz</title>
+  <meta name="description" content="grapefizz's website" />
+  <meta property="og:title" content="grapefizz" />
+  <meta property="og:description" content="grapefizz's website" />
+  <meta property="og:url" content="https://grapefizz.vercel.app" />
   <!-- <meta property="og:image" content="https://tnixc.space/og-image.jpeg" />
   <meta name="twitter:image" content="https://tnixc.space/og-image.jpeg" /> -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="shallowco" />
-  <meta property="twitter:site" content="@shallowco" />
-  <meta property="twitter:creator" content="@shallowco" />
+  <meta name="twitter:title" content="grapefizz" />
+  <meta property="twitter:site" content="@grapefizz" />
+  <meta property="twitter:creator" content="@grapefizz" />
   <script
     defer
     src="https://analytics.us.umami.is/script.js"

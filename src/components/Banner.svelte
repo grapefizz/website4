@@ -3,7 +3,7 @@
 
 <div class="relative m-0 overflow-hidden p-[9px] px-[10px] pb-0" id="reveal">
   <div class="w-fit border border-black flex items-center flex-wrap gap-20">
-    <h1 class="font-display patches">shallowco</h1>
+    <h1 class="font-display patches">grapefizz</h1>
     <svg
       width="165"
       height="55"

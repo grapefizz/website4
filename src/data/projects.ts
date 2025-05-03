@@ -54,13 +54,13 @@ export const projects: Project[] = [
 	{
 		name: "Dots",
 		description: "Collection of all the dotfiles for my macOS rice.",
-		github: "https://github.com/shallowco/dotfiles",
+		github: "https://github.com/grapefizz/dotfiles",
 		tags: [],
 	},
 	{
 		name: "H-O-L",
 		description: "Simple Python game. First thing I ever made.",
-		github: "https://github.com/shallowco/HigherOrLower",
+		github: "https://github.com/grapefizz/HigherOrLower",
 		tags: [python, lua, cli],
 	},
 ];
