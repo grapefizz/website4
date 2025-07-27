@@ -52,6 +52,12 @@ export const projects: Project[] = [
 		tags: [swift],
 	},
 	{
+		name: "cratr",
+		description: "Linux server file manager application build with Rust.",
+		github: "https://github.com/grapefizz/cratr",
+		tags: [rust, cli],
+	},
+	{
 		name: "Dots",
 		description: "Collection of all the dotfiles for my macOS rice.",
 		github: "https://github.com/grapefizz/dotfiles",

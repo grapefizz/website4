@@ -19,8 +19,8 @@ export const aboutInfo: InfoCardProps = {
 export const skillsInfo: InfoCardProps = {
 	Title: "Skills",
 	Info: [
-		{ key: "Languages", value: "Java, JavaScript, C++, C, Python, Lua, HTML/CSS" },
-		{ key: "Frameworks", value: "Astro, Svelte" },
+		{ key: "Languages", value: "Java, JavaScript, Rust, C++, C, Python, Lua, HTML/CSS" },
+		{ key: "Frameworks", value: "Astro, Svelte, Actix, Flask, Django, Leptos" },
 		{ key: "Tools", value: "Git, Photoshop, Aseprite, Blender" },
 		{ key: "Learning", value: "GDScript, Swift" },
 	],
